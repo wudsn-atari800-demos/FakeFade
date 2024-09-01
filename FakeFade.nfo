@@ -1,0 +1,20 @@
+;
+;	>> Fake Fade <<
+;
+;	A 64-byte intro for the Atari 800 XL (c) 2010-09-10 by JAC!
+;
+;	Fades the screen up and down again in graphics 9 (16 shades) by drawing random shade lines.
+;	Background color cycles through every color at the speed 256/50 = 5 s.
+;	Fade down starts after all background colors are displayed, i.e., after 82 s.
+;	Can be loaded from any Atari DOS.
+;
+;	Creating this one was really fun, and the code contains some sequences that I'm happy about now.
+
+;	For non Atarians:
+;	The Atari executable format requires 8+4 = 12 bytes overhead.
+;	So the code is only 52 (!) bytes ... I am wondering what rrrola would do with that  ;-)
+;
+;	For PC users:
+;	No, there is no ESC support because Atarians and Chuck Norris use RESET instead.
+;
+;	Created using WUDSN IDE. Visit https://www.wudsn.com to increase my hit counter.
